@@ -1,1 +1,1 @@
-# edustats.github.io
+# EduStats

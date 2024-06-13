@@ -71,6 +71,14 @@ div.content {
     padding: 0px 50px;
 }
 
+iframe.dataViz {
+    max-width: 100%;
+    border-radius: 20px;
+    width: 600px;
+    aspect-ratio: 4/3;
+    border: 0;
+}
+
 img.logo {
     display: block;
     margin: auto;

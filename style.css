@@ -34,6 +34,10 @@ header {
     padding: 20px;
 }
 
+h1 {
+    letter-spacing: 2px;
+}
+
 p {
     font-size: 16px;
     line-height: 2;

@@ -1,0 +1,107 @@
+:root {
+    --red: #EF476F;
+    --yellow: #FFD166;
+    --green: #06D6A0;
+    --lightBlue: #118AB275;
+    --midBlue: #118AB2;
+    --darkBlue: #073B4C;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: var(--darkBlue);
+}
+
+body > * {
+    display: block;
+    margin: auto;
+}
+
+body.map {
+    background-color: var(--lightBlue);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+p1 {
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img.map {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    height: auto;
+}
+
+div {
+    margin: 0px;
+}
+
+div.content {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+img.logo {
+    display: block;
+    margin: auto;
+    max-width: 60px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color: var(--darkBlue);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0px;
+}
+
+nav a img {
+    padding: 15px;
+}
+
+nav a:not(:first-child) {
+    color: white;
+    background-color: var(--darkBlue);
+    transition: all 0.25s ease 0s;
+    padding: 35px 15px;
+}
+
+nav a:not(:first-child):hover {
+    color: black;
+    background-color: var(--yellow);
+    transition: all 0.25s ease 0s;
+}

@@ -5,6 +5,7 @@
     --lightBlue: #118AB275;
     --midBlue: #118AB2;
     --darkBlue: #073B4C;
+    --lightGrey: #a3a3a3;
 }
 
 html {
@@ -38,6 +39,10 @@ h1 {
     letter-spacing: 2px;
 }
 
+h2 {
+    padding: 20px;
+}
+
 p {
     font-size: 16px;
     line-height: 2;
@@ -51,8 +56,42 @@ p1 {
 button {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    border: 0px solid black;
+    box-shadow: none;
+    transition: all 0.25s ease 0s;
+}
+
+button.redBtn {
+    background-color: var(--red);
+    color: white;
+}
+
+button.lightBlueBtn {
+    background-color: var(--midBlue);
+    color: white;
+}
+
+button.yellowBtn {
+    background-color: var(--yellow);
+    color: black;
+}
+
+button.greenBtn {
+    background-color: var(--green);
+    color: black;
+}
+
+button.darkBlueBtn {
+    background-color: var(--darkBlue);
+    color: black;
+}
+
+button:hover {
+    box-shadow: 2.5px 5px 10px 2.5px var(--lightGrey);
+    transition: all 0.25s ease 0s;
 }
 
 img.map {
@@ -71,18 +110,41 @@ div.content {
     padding: 0px 50px;
 }
 
+div.hDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+}
+
+div.vDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+div.hDiv h2 {
+    padding: 40px 100px;
+}
+
 iframe.dataViz {
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 10px;
     width: 600px;
     aspect-ratio: 4/3;
     border: 0;
+    margin: 20px;
 }
 
 img.logo {
     display: block;
     margin: auto;
-    max-width: 60px;
+    width: 60px;
 }
 
 nav {

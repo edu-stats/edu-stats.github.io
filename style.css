@@ -73,7 +73,7 @@ div.content {
 
 iframe.dataViz {
     max-width: 100%;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px;
     width: 600px;
     aspect-ratio: 4/3;
     border: 0;

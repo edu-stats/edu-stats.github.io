@@ -43,6 +43,10 @@ h2 {
     padding: 20px;
 }
 
+a {
+    font-size: 16px;
+}
+
 p {
     font-size: 16px;
     line-height: 2;
@@ -87,7 +91,7 @@ button.greenBtn {
 
 button.darkBlueBtn {
     background-color: var(--darkBlue);
-    color: black;
+    color: white;
 }
 
 button:hover {

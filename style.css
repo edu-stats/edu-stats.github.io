@@ -203,3 +203,9 @@ nav a:not(:first-child):hover {
     background-color: var(--yellow);
     transition: all 0.25s ease 0s;
 }
+
+nav a.active {
+    color: white;
+    background-color: var(--midBlue);
+    transition: all 0.25s ease 0s;
+}
